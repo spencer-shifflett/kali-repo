@@ -8,4 +8,5 @@ sudo apt update
 sudo sh -c "echo 'Package: *'>/etc/apt/preferences.d/kali.pref; echo 'Pin: release a=kali-rolling'>>/etc/apt/preferences.d/kali.pref; echo 'Pin-Priority: 50'>>/etc/apt/preferences.d/kali.pref"
 sudo apt update
 
-echo "Kali repository installed. To install kali package use \"sudo aptitude install -t kali-rolling <PACKAGE>\""
+echo
+echo "Kali repository installed. To install kali package use \"sudo apt install -t kali-rolling <PACKAGE>\""
